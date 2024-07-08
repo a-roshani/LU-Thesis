@@ -1,5 +1,5 @@
 # LU-Thesis; A LateX Thesis template for Lorestan University, Khorramabad, Iran.  
-ver 0.1.0
+Version 0.1.0
 _____________________
 
 The template has been written for students of [Lorestan University](https://lu.ac.ir/) who want to write their projects, theses, and dissertations. For more information, please see the documentation.
