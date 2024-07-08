@@ -1,0 +1,31 @@
+% !TeX root=main.tex
+
+\chapter{وارد کردن کدهای برنامه‌نویسی}\label{App:Programming Code}
+\thispagestyle{empty}
+
+در این بخش نمونه مثال‌هایی از ورود کدهای برنامه نویسی ارائه خواهد شد. برای این منظور می‌توان از دو محیط زیر استفاده کرد. محیط اول مربوط به بسته 
+\verb|listings|
+ است که در آن تنظیمات مربوط به زبان برنامه‌نویسی به عنوان یک قابلیت اضافه وجود دارد. محیط دوم مربوط به بسته 
+ \verb|verbatim|
+ است. برای کسب اطلاعات بیشتر در مورد این دو بسته راهنمای آن‌ها را ببینید.
+ 
+ محیط اول: زبان برنامه نویسی 
+ \verb|Matlab|
+ % به جای کلمه Matlab می توان متناسب با زبان مورد نظر از R , Python, SAS, PHP, C++, SQL, Java و ... استفاده کرد
+\begin{latin}
+\begin{lstlisting}[language=Matlab]
+n = normrnd([1 2 3;4 5 6],0.1,2,3)
+\end{lstlisting}
+\end{latin}
+
+محیط دوم: زبان برنامه 
+ \verb|R|
+ 
+ \begin{latin}
+ \begin{verbatim}
+set.seed(99)
+x <- rnorm(100)
+plot(density(x))
+\end{verbatim}
+ \end{latin}
+ 
