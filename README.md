@@ -1,4 +1,4 @@
-# Razi-Thesis; A LateX Thesis template for Lorestan University, Khorramabad, Iran.  
+# LU-Thesis; A LateX Thesis template for Lorestan University, Khorramabad, Iran.  
 ver 0.1.0
 _____________________
 
@@ -13,7 +13,7 @@ The style assumes that the user has the following fonts installed on their syste
 
 The final file must be compiled with XeLaTeX. 
 _____________________
-# قالب LateX پایان‌نامه برای دانشگاه رازی
+# قالب LateX پایان‌نامه برای دانشگاه لرستان
 حروف‌چینی پروژه کارشناسی، پایان‌نامه کارشناسی‌ارشد یا رساله دکتری یکی از موارد پرکاربرد استفاده از زی‌پرشین است. 
 زی‌پرشین بسته‌ای است که به همت آقای وفا خلیقی آماده شده است و امکان حروف‌چینی فارسی در LaTeX را  برای فارسی‌زبانان فراهم کرده است.
 از جمله مزایای LaTeX آن است که در صورت وجود یک کلاس آماده برای حروف‌چینی یک سند خاص مانند یک پایان‌نامه، کاربر بدون درگیری با جزییات حروف‌چینی و صفحه‌آرایی می‌تواند سند خود را آماده نماید.
