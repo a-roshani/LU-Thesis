@@ -2,19 +2,22 @@
 % 	     امین روشنی، دانشگاه لرستان، دانشکده علوم پایه، گروه آمار
 %        این نسخه، بر اساس نسخه‌ 0.4 از کلاس Tabriz_Thesis آقای وحید دامن‌افشان آماده شده است. http://damanafshan.tk        
 %---------------------------------------------------------------------------------------------
-%        اگر قصد نوشتن پروژه کارشناسی را دارید، در خط زیر به جای msc، کلمه bsc و اگر قصد نوشتن پروژه دکترا
+%اگر قصد نوشتن پروژه کارشناسی را دارید، در خط زیر به جای msc، کلمه bsc و اگر قصد نوشتن پروژه دکترا
 %        را دارید، کلمه phd را قرار دهید. کلیه تنظیمات لازم، به طور خودکار، اعمال می‌شود.
 
 %        اگر مایلید پایان‌نامه شما دورو باشد به جای oneside  در خط زیر از twoside استفاده کنید
-\documentclass[oneside,openright,phd]{LU-Thesis}
+\documentclass[oneside,openright,msc]{LU-Thesis}
 
 % مشخصات پایان‌نامه را در فایلهای faTitle و enTitle وارد نمایید.
 
 %       فایل commands.tex را مطالعه کنید؛ چون دستورات مربوط به فراخوانی بسته زی‌پرشین 
 %       و دیگر بسته‌ها و ... در این فایل قرار دارد و بهتر است که با نحوه استفاده از آنها آشنا شوید.
 \input{commands}
-
+ 
 \begin{document}
+\renewcommand\proofname{\textbf{برهان}}
+\renewcommand{\bibname}{مراجع}
+%%%%%%%%%%%%%%%%%%%%%%
 
 \pagenumbering{harfi}
 \input{faTitle}
@@ -41,6 +44,7 @@
 \pagestyle{empty}
 {
 \onehalfspacing
+%\setLTRbibitems
 \bibliographystyle{chicago-fa}%{acm-fa}{chicago-fa}{plainnat-fa}%
 \bibliography{MyReferences}
 }

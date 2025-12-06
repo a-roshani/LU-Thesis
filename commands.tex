@@ -19,7 +19,7 @@
 %\usepackage[pagebackref=false]{hyperref}
 % بسته‌ لازم برای تنظیم سربرگ‌ها
 \usepackage{fancyhdr}
-%
+\usepackage[bottom]{footmisc}
 \usepackage{setspace}
 \usepackage{algorithm}
 \usepackage{algorithmic}
@@ -56,9 +56,7 @@
 % دستوری برای حذف کلمه «abstract»
 %\renewcommand{\latinabstract}{}
 % دستوری برای تغییر نام کلمه «اثبات» به «برهان»
-\renewcommand\proofname{\textbf{برهان}}
-% دستوری برای تغییر نام کلمه «کتاب‌نامه» به «مراجع»
-\renewcommand{\bibname}{مراجع}
+
 % دستوری برای تعریف واژه‌نامه انگلیسی به فارسی
 \newcommand\persiangloss[2]{#1\dotfill\lr{#2}\\}
 % دستوری برای تعریف واژه‌نامه فارسی به انگلیسی 
@@ -75,7 +73,6 @@
 % تعریف و نحوه ظاهر شدن عنوان قضیه‌ها، تعریف‌ها، مثال‌ها و ...
 \theoremstyle{definition}
 \newtheorem{definition}{تعریف}[section]
-\theoremstyle{theorem}
 \newtheorem{theorem}[definition]{قضیه}
 \newtheorem{lemma}[definition]{لم}
 \newtheorem{proposition}[definition]{گزاره}
@@ -161,3 +158,5 @@
   \newpage \if@twocolumn\hbox{}\newpage\fi\fi\fi 
 }
  \makeatother
+
+\setlength{\headheight}{16pt}
